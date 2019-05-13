@@ -18,7 +18,7 @@ def hello_world():
 
     result = parse_bbc(chapter, news)
     if result is None:
-        jsonify("Something bad happened"), 500
+        return jsonify("Something bad happened"), 500
 
     result = {
         'chapter': chapter,
