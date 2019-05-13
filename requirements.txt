@@ -1,3 +1,5 @@
 flask < 2
 requests < 3
 beautifulsoup4 < 5
+
+gunicorn < 20
